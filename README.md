@@ -42,3 +42,5 @@ The `juliapkgs.bib` file is checked using the command/github-action:
 ```sh
 biber --tool --validate-datamodel juliapkgs.bib
 ```
+
+The github-action will create a release with the processed `.bib` file.

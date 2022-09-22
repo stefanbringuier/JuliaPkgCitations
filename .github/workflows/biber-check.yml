@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Check and Process
-        uses: stefanbringuier/bibtex-biber-action@v1
+        uses: stefanbringuier/bibtex-biber-action@v2
         with:
           filename: "juliapkgs.bib"
           output-directory: "processed"
