@@ -5,10 +5,13 @@ jobs:
   check_release_bib:
     runs-on: ubuntu-latest
     steps:
+      - name: Git repo setup
+        uses: actions/checkout@v2
+        
       - name: Check and Process
         uses: stefanbringuier/bibtex-biber-action@v1
         with:
-          filename: "../juliapkgs.bib"
+          filename: "juliapkgs.bib"
           output-directory: "processed"
 
       - name: Rename
@@ -21,7 +24,7 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
