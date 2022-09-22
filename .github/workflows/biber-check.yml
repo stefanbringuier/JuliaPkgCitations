@@ -20,7 +20,7 @@ jobs:
 
       - name: Get date
         id: date
-        run: echo"::set-output name=date::$(date --utc +'%Y-%h-%d__%H_%M')"
+        run: echo "::set-output name=date::$(date --utc +'%Y-%h-%d__%H_%M')"
 
       - name: Create Release
         id: create_release
