@@ -8,7 +8,7 @@ jobs:
       - name: Check and Process
         uses: stefanbringuier/bibtex-biber-action@v1
         with:
-          filename: "juliapkgs.bib"
+          filename: "../juliapkgs.bib"
           output-directory: "processed"
 
       - name: Rename
