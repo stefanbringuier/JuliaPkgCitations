@@ -16,7 +16,7 @@ jobs:
 
       - name: Rename
         id: rename
-        run: mv processed/juliapkgs_bibertools.bib processed/juliapkgs.bib
+        run: mv processed/juliapkgs_bibertool.bib processed/juliapkgs.bib
 
       - name: Get date
         id: date
