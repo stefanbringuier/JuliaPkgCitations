@@ -1,11 +1,12 @@
 name: Check and Release .bib file
 on: [push]
+
 jobs:
   check_release_bib:
     runs-on: ubuntu-latest
     steps:
       - name: Check and Process
-      - uses: actions/bibtex-biber-action@v1
+      - uses: stefanbringuier/bibtex-biber-action@v1
         with:
           filename: 'juliapkgs.bib'
           output-directory: 'processed'
