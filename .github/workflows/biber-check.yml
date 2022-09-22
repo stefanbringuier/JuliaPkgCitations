@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check and Process
-      - uses: stefanbringuier/bibtex-biber-action@v1
+        uses: stefanbringuier/bibtex-biber-action@v1
         with:
           filename: "juliapkgs.bib"
           output-directory: "processed"

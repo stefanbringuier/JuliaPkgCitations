@@ -1,6 +1,6 @@
 # Julia Pkg Citations
 
-This repo provides the file [`juliapkgs.bib`](juliapkgs.bib) (**WIP**) that contains several entries for many popular [Julia](https://julialang.org/) packages. The repo was inspired by [Miles Cranmer](github.com/MilesCranmer/python_citations) python repo.
+This repo provides the file [`juliapkgs.bib`](juliapkgs.bib) (**WIP**) that contains several entries for many popular [Julia](https://julialang.org/) packages. The repo was inspired by [Miles Cranmer](https://github.com/MilesCranmer/python_citations) python repo.
 
 > Note that if a peer-reviewed publication is available for a given Julia package, this is choosen as the default work to cite.
 
