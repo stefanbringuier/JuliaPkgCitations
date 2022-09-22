@@ -1,0 +1,31 @@
+name: Check and Release .bib file
+on: [push]
+jobs:
+  check_release_bib:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check and Process
+      - uses: actions/bibtex-biber-action@v1
+        with:
+          filename: 'juliapkgs.bib'
+          output-directory: 'processed'
+          
+      - name: Rename 
+        id: rename
+        run: mv processed/juliapkgs_bibertools.bib processed/juliapkgs.bib
+
+      - name: Get date
+        id: date
+        run: echo"::set-output name=date::$(date --utc +'%Y-%h-%d__%H_%M')"
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+         tag_name: tag-${{ steps.date.outputs.date}}
+         name: Release ${{ steps.date.outputs.date}}
+         files: processed/juliapkgs.bib
+         draft: false
+         prerelease: false
