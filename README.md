@@ -29,14 +29,14 @@ All keys use lowercase for the package name and contain the `.jl` extension. The
 | `\cite{scikitlearn.jl}` | [ScikitLearn.jl](https://github.com/cstjean/ScikitLearn.jl) | API for scikit-learn[^1]|
 | `\cite{luxor.jl}` | [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | Drawing graphics |
 | `\cite{latexify.jl}` | [Latexify.jl](https://github.com/korsbo/Latexify.jl) | Latex representations |
-
+| `\cite{measurements.jl}` | [Measurements.jl](https://github.com/JuliaPhysics/Measurements.jl) | Uncertainty propagation |
 
 ## Cite all Packages
 
 The following will cite all packages:
 
 ```latex
-\cite{julia, plots.jl, pluto.jl, flux.jl, jump.jl, turing.jl, dataframes.jl, distributions.jl, franklin.jl, makie.jl, symbolics.jl, mlj.jl, differentialequations.jl, zygote.jl, drwatson.jl, scikitlearn.jl, luxor.jl, latexify.jl}
+\cite{julia, plots.jl, pluto.jl, flux.jl, jump.jl, turing.jl, dataframes.jl, distributions.jl, franklin.jl, makie.jl, symbolics.jl, mlj.jl, differentialequations.jl, zygote.jl, drwatson.jl, scikitlearn.jl, luxor.jl, latexify.jl, measurements.jl}
 ```
 
 ## Standardization
