@@ -31,13 +31,14 @@ All keys use lowercase for the package name and contain the `.jl` extension. The
 | `\cite{latexify.jl}` | [Latexify.jl](https://github.com/korsbo/Latexify.jl) | Latex representations |
 | `\cite{measurements.jl}` | [Measurements.jl](https://github.com/JuliaPhysics/Measurements.jl) | Uncertainty propagation |
 | `\cite{taylorseries.jl}` | [TaylorSeries.jl](https://github.com/JuliaDiff/TaylorSeries.jl) | Polynomial expansion |
+| `\cite{metaheuristics.jl}` | [Metaheuristics.jl](https://github.com/jmejia8/Metaheuristics.jl) | Advanced optimization |
 
 ## Cite all Packages
 
 The following will cite all packages:
 
 ```latex
-\cite{julia, plots.jl, pluto.jl, flux.jl, jump.jl, turing.jl, dataframes.jl, distributions.jl, franklin.jl, makie.jl, symbolics.jl, mlj.jl, differentialequations.jl, zygote.jl, drwatson.jl, scikitlearn.jl, luxor.jl, latexify.jl, measurements.jl, taylorseries.jl}
+\cite{julia, plots.jl, pluto.jl, flux.jl, jump.jl, turing.jl, dataframes.jl, distributions.jl, franklin.jl, makie.jl, symbolics.jl, mlj.jl, differentialequations.jl, zygote.jl, drwatson.jl, scikitlearn.jl, luxor.jl, latexify.jl, measurements.jl, taylorseries.jl, metaheuristics.jl}
 ```
 
 ## Standardization
