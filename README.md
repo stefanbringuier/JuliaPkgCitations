@@ -12,6 +12,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | Citation Key                      | Package                                                                       | Use                        |
 | :-------------------------------- | :---------------------------------------------------------------------------- | :------------------------- |
 | `\cite{dataframes.jl}`            | [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)                   | Data structures            |
+| `\cite{dftk.jl}`                  | [DFTK.jl](https://github.com/JuliaMolSim/DFTK.jl)                             | Electronic structure       |
 | `\cite{differentialequations.jl}` | [DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl) | Solver library             |
 | `\cite{distributions.jl}`         | [Distributions.jl](https://github.com/JuliaStats/Distributions.jl)            | Probability                |
 | `\cite{drwatson.jl}`              | [DrWatson.jl](https://github.com/JuliaDynamics/DrWatson.jl)                   | Workflow mangement         |
@@ -31,6 +32,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | `\cite{revise.jl}`                | [Revise.jl](https://github.com/timholy/Revise.jl)                             | Julia REPL tool            |
 | `\cite{scikitlearn.jl}`           | [ScikitLearn.jl](https://github.com/cstjean/ScikitLearn.jl)                   | API for scikit-learn[^1]   |
 | `\cite{symbolics.jl}`             | [Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl)                | Symbolic programming       |
+| `\cite{symbolicregression.jl}`    | [SymbolicRegression.jl](https://github.com/MilesCranmer/SymbolicRegression.jl)| Symbolic expression search |
 | `\cite{taylorseries.jl}`          | [TaylorSeries.jl](https://github.com/JuliaDiff/TaylorSeries.jl)               | Polynomial expansion       |
 | `\cite{turing.jl}`                | [Turing.jl](https://github.com/TuringLang/Turing.jl)                          | Probablistic programming   |
 | `\cite{unitful.jl}`               | [Unitful.jl](https://github.com/PainterQubits/Unitful.jl)                     | Physical units             |
@@ -41,7 +43,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 The following will cite all packages:
 
 ```latex
-\cite{julia, dataframes.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, plots.jl, pluto.jl, pptx.jl,scikitlearn.jl, symbolics.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
+\cite{julia, dataframes.jl, dftk.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, plots.jl, pluto.jl, pptx.jl,scikitlearn.jl, symbolics.jl, symbolicregression.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
 ```
 
 ## Standardization
