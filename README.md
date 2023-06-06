@@ -40,7 +40,14 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | `\cite{unitful.jl}`               | [Unitful.jl](https://github.com/PainterQubits/Unitful.jl)                     				  | Physical units             |
 | `\cite{zygote.jl}`                | [Zygote.jl](https://github.com/FluxML/Zygote.jl)                              				  | Automatic differentiation  |
 
-## Cite all Packages
+## Notes on Usage
+
+- The `bib` entries contain unicode so its recommended to use `LuaLaTeX` or `XeLaTeX` when compiling.
+- Many `\bibliographystyle` settings/styles won't handle `@misc` or `@software` entries very well (#1), therefore, I suggest using `BibLaTeX`.
+
+Here is an example on [Overleaf](https://www.overleaf.com/read/xxtccjjzyygc).
+
+### Cite all Packages
 
 The following will cite all packages:
 
