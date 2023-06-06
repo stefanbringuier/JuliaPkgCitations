@@ -12,7 +12,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | Citation Key                      | Package                                                                       				  | Use                        |
 | :-------------------------------- | :---------------------------------------------------------------------------------------------------------- | :------------------------- |
 | `\cite{julia}`                    | [Julia Language](https://github.com/JuliaLang/julia)                          				  | Programming Language       |
-| `\cite{chemistryfeaturization.jl` | [ChemistryFeaturization.jl](https://github.com/Chemellia/ChemistryFeaturization.jl)                         | Featurization schema       |
+| `\cite{chemistryfeaturization.jl}`| [ChemistryFeaturization.jl](https://github.com/Chemellia/ChemistryFeaturization.jl)                         | Featurization schema       |
 | `\cite{dataframes.jl}`            | [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)                   				  | Data structures            |
 | `\cite{dftk.jl}`                  | [DFTK.jl](https://github.com/JuliaMolSim/DFTK.jl)                             				  | Electronic structure       |
 | `\cite{differentialequations.jl}` | [DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl) 				  | Solver library             |
@@ -20,6 +20,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | `\cite{drwatson.jl}`              | [DrWatson.jl](https://github.com/JuliaDynamics/DrWatson.jl)                   				  | Workflow mangement         |
 | `\cite{flux.jl}`                  | [Flux.jl](https://github.com/FluxML/Flux.jl)                                  				  | Deep learning framework    |
 | `\cite{franklin.jl}`              | [Franklin.jl](https://github.com/tlienart/Franklin.jl)                        				  | Static websites            |
+| `\cite{geometricflux.jl}          | [GeometricFlux.jl])(https://github.com/FluxML/GeometricFlux.jl)                                             | Graph neural networks      |
 | `\cite{jump.jl}`                  | [JuMP.jl](https://github.com/jump-dev/JuMP.jl)                                				  | Optimization               |
 | `\cite{latexify.jl}`              | [Latexify.jl](https://github.com/korsbo/Latexify.jl)                          				  | Latex representations      |
 | `\cite{luxor.jl}`                 | [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl)                         				  | Drawing graphics           |
@@ -44,20 +45,20 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 The following will cite all packages:
 
 ```latex
-\cite{julia, chemistryfeaturization.jl, dataframes.jl, dftk.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, plots.jl, pluto.jl, pptx.jl,scikitlearn.jl, symbolics.jl, symbolicregression.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
+\cite{julia, chemistryfeaturization.jl, dataframes.jl, dftk.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, geometricflux.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, plots.jl, pluto.jl, pptx.jl, scikitlearn.jl, symbolics.jl, symbolicregression.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
 ```
 
 ## Standardization
 
 There are four classes of `bibtex` entries used in [`juliapkgs.bib`](juliapkgs.bib): `@article`, `@software`, `@misc`, and `@inproceedings`. The use of `@misc` instead of `@software` is a bit arbitary.
 
-The `juliapkgs.bib` file is checked using the command/github-action:
+The `juliapkgs.bib` file is checked and reformatted using the command/github-action:
 
 ```sh
 biber --tool --validate-datamodel juliapkgs.bib
 ```
 
-The github-action will create a release with the processed `.bib` file.
+The github-action will create a [release](https://github.com/stefanbringuier/JuliaPkgCitations/releases) with the processed `.bib` file.
 
 [^1]: Citing this package also would likely require citing the python library.
 
