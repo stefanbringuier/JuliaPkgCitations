@@ -20,7 +20,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | `\cite{drwatson.jl}`              | [DrWatson.jl](https://github.com/JuliaDynamics/DrWatson.jl)                   				  | Workflow mangement         |
 | `\cite{flux.jl}`                  | [Flux.jl](https://github.com/FluxML/Flux.jl)                                  				  | Deep learning framework    |
 | `\cite{franklin.jl}`              | [Franklin.jl](https://github.com/tlienart/Franklin.jl)                        				  | Static websites            |
-| `\cite{geometricflux.jl}          | [GeometricFlux.jl])(https://github.com/FluxML/GeometricFlux.jl)                                             | Graph neural networks      |
+| `\cite{geometricflux.jl}`         | [GeometricFlux.jl](https://github.com/FluxML/GeometricFlux.jl)                                              | Graph neural networks      |
 | `\cite{jump.jl}`                  | [JuMP.jl](https://github.com/jump-dev/JuMP.jl)                                				  | Optimization               |
 | `\cite{latexify.jl}`              | [Latexify.jl](https://github.com/korsbo/Latexify.jl)                          				  | Latex representations      |
 | `\cite{luxor.jl}`                 | [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl)                         				  | Drawing graphics           |
