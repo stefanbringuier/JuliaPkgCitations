@@ -28,6 +28,7 @@ All keys use lowercase for the package name and contain the `.jl` extension, the
 | `\cite{measurements.jl}`          | [Measurements.jl](https://github.com/JuliaPhysics/Measurements.jl)            				  | Uncertainty propagation    |
 | `\cite{metaheuristics.jl}`        | [Metaheuristics.jl](https://github.com/jmejia8/Metaheuristics.jl)             				  | Advanced optimization      |
 | `\cite{mlj.jl}`                   | [MLJ.jl](https://github.com/alan-turing-institute/MLJ.jl)                     				  | Machine learning framework |
+| `\cite{ohmyrepl.jl}`              | [OhMyREPL.jl](https://github.com/KristofferC/OhMyREPL.jl)                                                   | REPL enhancement           |
 | `\cite{plots.jl}`                 | [Plots.jl](https://github.com/JuliaPlots/Plots.jl)                            				  | High-level plotting        |
 | `\cite{pluto.jl}`                 | [Pluto.jl](https://github.com/fonsp/Pluto.jl)                                 				  | Notebook environment       |
 | `\cite{pptx.jl}`                  | [PPTX.jl](https://github.com/ASML-Labs/PPTX.jl)                               				  | Presentation slides        |
@@ -52,7 +53,7 @@ Here is an example on [Overleaf](https://www.overleaf.com/read/xxtccjjzyygc).
 The following will cite all packages:
 
 ```latex
-\cite{julia, chemistryfeaturization.jl, dataframes.jl, dftk.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, geometricflux.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, plots.jl, pluto.jl, pptx.jl, scikitlearn.jl, symbolics.jl, symbolicregression.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
+\cite{julia, chemistryfeaturization.jl, dataframes.jl, dftk.jl, differentialequations.jl, distributions.jl, drwatson.jl, flux.jl, franklin.jl, geometricflux.jl, jump.jl, latexify.jl, luxor.jl, makie.jl, measurements.jl, metaheuristics.jl, mlj.jl, ohmyrepl.jl, plots.jl, pluto.jl, pptx.jl, scikitlearn.jl, symbolics.jl, symbolicregression.jl, taylorseries.jl, turing.jl, unitful.jl, zygote.jl} 
 ```
 
 ## Standardization
